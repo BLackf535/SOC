@@ -1,0 +1,140 @@
+body {
+            background-color: #f5fafd;
+            color: #333;
+        }
+        
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+        
+        .carousel-inner img {
+            height: 450px;
+            object-fit: cover;
+        }
+        
+        h3 {
+            margin-bottom: 1.5rem;
+        }
+        
+        .footer {
+            width: 100%; /* Occupe toute la largeur */
+            background-color: #007BFF; /* Bleu clair pour la bande */
+            color: white; /* Texte en blanc par défaut */
+            padding: 20px ; /* Espacement en haut et en bas */
+            margin-top: 20px; /* Pour espacer le footer du contenu */
+           
+        }
+        
+        .footer .footer-text {
+            color: white; /* Texte principal en blanc */
+            font-size: 16px; /* Taille du texte */
+        }
+        
+        .footer .footer-contact {
+            color: #000; /* Texte noir pour contraste */
+            font-size: 14px;
+        }
+        
+        .footer .footer-contact a {
+            color: white; /* Liens en blanc */
+            text-decoration: none; /* Pas de soulignement */
+        }
+        
+        .footer .footer-contact a:hover {
+            text-decoration: underline; /* Soulignement au survol */
+        }
+        
+        .footer-logo {
+            max-width: 100px; /* Taille de l'image */
+            margin-bottom: 10px; /* Espacement sous l'image */
+        }
+        
+        .event-image {
+            width: 100%;
+            height: 350px; /* Légèrement augmenté */
+            object-fit: contain;
+            background-color: #f8f9fa;
+            border-radius: 15px; /* Arrondi des bords */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour un effet esthétique */
+            margin-bottom: 10px; /* Espacement entre l'image et le texte */
+        }
+        
+        .event-description {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            font-style: italic;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        .event-description p {
+            margin: 0;
+            color: #333; /* Texte légèrement plus sombre pour une meilleure lisibilité */
+        }
+
+        .logo {
+            width: 150px;
+            height: 50px;
+            /* border-radius: 50%; */
+            object-fit: cover;
+        }
+        
+        .nav-link {
+            padding: 8px 15px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        
+        .nav-link:hover {
+            color: #fff;
+            background-color: #81adf0;
+            border-radius: 5px;
+        }
+        
+        .dropdown-menu {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 10px;
+        }
+        
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+        }
+        
+        .dropdown-item:hover {
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+        .animated {
+            opacity: 0;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .fadeIn {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .fadeInLeft {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        /* Section du titre central */
+      .titre-central {
+            margin-top: 20px; /* Espacement par rapport à la navbar */
+            padding: 20px 0;
+            background-color: #f0f8ff; /* Couleur légèrement bleue */
+            border-bottom: 2px solid #007BFF; /* Ligne de séparation */
+        }
+        
+        .titre-central h1 {
+            font-size: 2rem; /* Taille du titre */
+            color: #007BFF; /* Bleu principal */
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        

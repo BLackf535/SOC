@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel JobaJo 2024</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Styles personnalisés -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div id="jobjoCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicateurs -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#jobjoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#jobjoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#jobjoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="fleur/recy.png" class="d-block w-100" alt="Image 1">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Bienvenue Collection JOBAJO 2024</h5>
+                        <p>Modeste ALOUGOU, vainqueur de l'édition 2023, a présenté sa collection "Terres et Vents" à Douala.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="fleur/photo7.jpeg" class="d-block w-100" alt="Image 2">
+                    <div class="carousel-caption d-md-block">
+                        <h5>La conquête du trône</h5>
+                        <p>Un savoir-faire authentique mis en lumière lors de l'événement.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="fleur/recy.png" class="d-block w-100" alt="Image 3">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Ambiance et festivité</h5>
+                        <p>Partagez des moments mémorables avec Beaufort Style.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contrôles de navigation -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#jobjoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#jobjoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
